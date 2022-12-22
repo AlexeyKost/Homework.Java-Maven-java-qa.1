@@ -16,6 +16,10 @@ public class Main {
         actual = service.calculate(1000, false);
         System.out.println("3." + expected + "==?==" + actual);
 
+        expected = 500;
+        actual = service.calculate(1000_000, false);
+        System.out.println("4." + expected + "==?==" + actual);
+
 
     }
 }
